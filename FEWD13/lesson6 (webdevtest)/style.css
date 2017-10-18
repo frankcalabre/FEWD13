@@ -1,0 +1,150 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS:
+
+    White - #ffffff
+    Light Grey - #d7e0db
+    Dark Grey - 3b393a
+    Grey/Black(text color) - 080808
+    Yellow - fad735
+    Red - e9403d
+*/
+
+
+/* Global
+   ================================================================ */
+body {
+  background-color: #534664;
+  margin: 0px 20px 0px 20px;
+}
+
+h2, h3, h4, p {
+  color: #fefdf9;
+}
+
+/* Layout
+   ================================================================ */
+.clearfix h2 {
+  border-bottom: 1px solid #75678a;
+}
+
+
+
+.leftcolumn {
+  float: left;
+  width: 37%;
+  padding: 10px 30px 10px 30px;
+}
+.middlecolumn {
+  float: left;
+  width: 26%;
+}
+.rightcolumn {
+  float: left;
+  width: 37%;
+  padding: 10px 30px 10px 30px;
+}
+
+.gunnar img {
+  position: absolute;
+  top: 15%; 
+  right: 16%;
+   width: 200px;
+    height: 200px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    /*margin: 10px;*/
+}
+.yellowcircle {
+    /*margin: 20px;*/
+    position: relative;
+    border: 1px solid #ffd962;
+    width: 300px;
+    height: 300px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+}
+
+
+/* Headings
+   ================================================================ */
+
+
+/* Text Styles
+   ================================================================ */
+
+
+
+/* Header
+   ================================================================ */
+.header {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 100px;
+}
+/* Footer
+   ================================================================ */
+
+
+ /*Navigation*/
+   /*================================================================ */
+
+
+
+/*/* Buttons*/
+   /*================================================================ */
+
+
+
+
+.loader {
+  background: RGBA(86, 73, 105, 1.00);
+  margin: 0 0 10px 0;
+  border-radius: 5px;
+/*   overflow: hidden; */
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow: hidden;
+}
+
+.loader-inner {
+  background: RGBA(255, 208, 101, 1.00);
+  width: 55%;
+  padding: 5px 10px;
+}
+
+.loader-inner-text,
+.loader-inner-value {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+}
+
+.loader-inner-text {
+  float: left;
+  color: white;
+}
+
+.loader-inner-value {
+  float: right;
+  font-weight: bold;
+}
+

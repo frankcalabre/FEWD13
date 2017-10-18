@@ -1,0 +1,180 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS:
+
+    White - #ffffff
+    Light Grey - #d7e0db
+    Dark Grey - 3b393a
+    Grey/Black(text color) - 080808
+    Yellow - fad735
+    Red - e9403d
+*/
+
+
+/* Global
+   ================================================================ */
+.wrapper {
+  
+  background-color: white;
+}
+body {
+  background-color: black;
+}
+
+/* Layout
+   ================================================================ */
+.info {
+  float: left;
+  width: 33%;
+  padding: 50px 50px 50px 50px;
+  border-right: 1px solid black;
+  margin-top: 20px;
+}
+
+.info:last-child {
+  border: none;
+}
+.info h3 {
+  font-size: 25px;
+}
+.banner {
+  background-image: url(../assets/coworking.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  height: 460px;
+  /*border: solid 1px black;*/
+  margin-top: none;
+  padding: 100px 5px 100px 5px;
+}
+.blurb {
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  right: 0%;
+  background-color: rgba(255, 255, 255, .7);
+  width: 25%;
+  padding: 25px;
+}
+
+
+
+/* Headings
+   ================================================================ */
+  h1 a {
+    float: left;
+    font-size: 30px;
+    color: #080808;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-right: 80px;
+    padding-left: 20px;
+
+  }
+
+
+/* Text Styles
+   ================================================================ */
+.tagline  {
+  text-align: center;
+  font-size: 25px;
+  background-color: #e1ebe6;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  border-bottom-width: 0px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+
+
+/* Header
+   ================================================================ */
+.header {
+  border: 1px solid #3b3a3a;
+  border-bottom: 5px solid #fbd334;
+  background-color: #3b3a3a;
+}
+.header h1 a {
+  color: #ffffff;
+}
+
+/* Footer
+   ================================================================ */
+.footerdiv {
+  background-color: #3b3a3a;
+  padding: 25px 10px 20px 10px;
+  margin-top: 20px;
+
+}
+
+
+ /*Navigation*/
+   /*================================================================ */
+nav {
+  float: left;
+  display: inline-block;
+  margin-bottom: 0 auto;
+}
+ul li a {
+  color: #ffffff;
+}
+ul {
+  padding-bottom: 25px;
+
+}
+li {
+  display: inline;
+  padding-right: 25px;
+  
+}
+li a {
+  text-decoration: none;
+  color: #080808;
+}
+strong a {
+  font-size: 20px;
+  color: #080808;
+}
+/*/* Buttons*/
+   /*================================================================ */
+.button {
+  background-color: #e1ebe6;
+  /*margin: 30px 20px 10px 20px;*/
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.bannerbutton {
+  background-color: #fa4542;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+
